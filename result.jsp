@@ -4,9 +4,9 @@
 </head>
 <body>
     <h1>Weather for <%= request.getParameter("city") %></h1>
-    <p>Temperature: <%= request.getAttribute("temperature") %> °C</p>
+    <p>Temperature: <%= request.getAttribute("temperature") %> Â°C</p>
     <p>Wind Speed: <%= request.getAttribute("windspeed") %> m/s</p>
-    <a href="index.jsp">Check another city</a>
+    <a href="index.html">Check another city</a>
 </body>
 </html>
 
