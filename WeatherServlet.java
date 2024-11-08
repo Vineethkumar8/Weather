@@ -38,7 +38,6 @@ public class WeatherServlet extends HttpServlet {
                 lat = firstResult.getJSONObject("geometry").getDouble("lat");
                 lon = firstResult.getJSONObject("geometry").getDouble("lng");
             } else {
-                // Handle case where the city is not found
                 response.getWriter().write("City not found");
                 return;
             }
